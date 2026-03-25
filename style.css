@@ -49,3 +49,12 @@ header a {
 }
 
 
+
+.about-photo {
+    width: 15px;   /* 图片宽度，可根据需要调整 */
+    height: auto;   /* 高度自动按比例缩放 */
+    display: block; /* 独占一行 */
+    margin: 20px auto; /* 上下间距 + 居中显示 */
+    border-radius: 20%; /* 可选：圆形头像 */
+}
+
