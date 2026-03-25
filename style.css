@@ -2,7 +2,7 @@ body {
     font-family: Arial, sans-serif;
     background-color: #f4f4f9;
     color: #333;
-    font-size: 15px; /* 文字大小，可根据需要调整 */
+    font-size: 20px; /* 文字大小，可根据需要调整 */
 }
 
 
@@ -27,7 +27,7 @@ nav ul {
 
 nav ul li {
     display: inline;
-    margin-right: 15px;
+    margin-right: 20px;
 }
 
 
