@@ -4,12 +4,6 @@ body {
     color: #333;
 }
 
-header {
-    background-color: #333;
-    color: #fff;
-    padding: 100px;
-    text-align: center;
-}
 
 header {
     background-image: url('starrysky.png'); /* 图片路径，可以是本地或网络链接 */
@@ -20,15 +14,21 @@ header {
     text-align: center;          /* 文字居中 */
 }
 
+
+
 nav ul {
     list-style: none;
     padding: 0;
 }
 
+
+
 nav ul li {
     display: inline;
     margin-right: 15px;
 }
+
+
 
 a {
     color: #fff;
