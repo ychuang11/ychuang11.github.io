@@ -1,14 +1,12 @@
-
 header {
     background-image: url('starrysky.png'); /* 图片路径，可以是本地或网络链接 */
     background-size: cover;     /* 图片铺满整个 header */
     background-position: center; /* 图片居中显示 */
     color: white;                /* 文字颜色白色，保证可读性 */
-    padding: 30px;             /* header 内边距 */
+    padding: 50px;             /* header 内边距 */
     text-align: center;          /* 文字居中 */
     font-size: 20px; /* 文字大小，可根据需要调整 */
 }
-
 
 
 
@@ -17,11 +15,19 @@ body {
     font-family: "Times New Roman";
     background-color: rgb(247, 245, 206);
     color: black;
-    font-size: 23px; 
-    padding-left: 0px;   
-    padding-right: 0px;
+    font-size: 25px; 
     line-height: 1.5;
+    margin: 0;
 }
+
+
+
+.container {
+    padding-left: 30px;  /* 或你想要的值 */
+    padding-right: 30px;
+    margin: 0 auto;      /* 居中 */
+}
+
 
 
 
@@ -46,14 +52,25 @@ body a {
 }
 
 
-
-header a {
-    color: white;
-    text-decoration: underline;
+header nav ul li a {
+    display: inline-block;           /* 让 a 可以设置内边距 */
+    padding: 5px 10px 5px 10px;        /* 上下左右的空白，让像按钮 */
+    margin: 0px 5px;
+    color: white;                     /* 文字颜色 */
+    background-color: rgba(255,255,255,0); /* 透明背景 */
+    border: 2px solid white;          /* 白色边框 */
+    border-radius: 10px;               /* 圆角按钮 */
+    text-decoration: none;            /* 去掉原下划线 */
     font-size: 30px;
-    margin: 15px   15px;
+    transition: all 0.3s ease;        /* 鼠标悬停动画 */
 }
 
+/* 悬停效果 */
+header nav ul li a:hover {
+    background-color: rgba(255,255,255,0.2); /* 半透明背景 */
+    border-color: white;                    /* 可以换成金色边框，呼应银河 */
+    cursor: pointer;
+}
 
 
 
@@ -61,6 +78,6 @@ header a {
     width: 200px; /* 图片宽度，可根据需要调整 */ 
     height: auto; 
     float: left; /* 图片浮动到左边 */ 
-    margin: 10px 50px 10px 50px; /* 上右下左 */ 
+    margin: 10px 100px 10px 30px; /* 上右下左 */ 
     border-radius: 20%; /* 圆形头像，可选 */ 
 }
