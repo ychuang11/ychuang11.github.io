@@ -11,6 +11,15 @@ header {
     text-align: center;
 }
 
+header {
+    background-image: url('starrysky.png'); /* 图片路径，可以是本地或网络链接 */
+    background-size: cover;     /* 图片铺满整个 header */
+    background-position: center; /* 图片居中显示 */
+    color: #fff;                /* 文字颜色白色，保证可读性 */
+    padding: 100px;             /* header 内边距 */
+    text-align: center;          /* 文字居中 */
+}
+
 nav ul {
     list-style: none;
     padding: 0;
