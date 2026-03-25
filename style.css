@@ -12,7 +12,7 @@ header {
     color: #fff;                /* 文字颜色白色，保证可读性 */
     padding: 100px;             /* header 内边距 */
     text-align: center;          /* 文字居中 */
-    font-size: 50px; /* 文字大小，可根据需要调整 */
+    font-size: 36px; /* 文字大小，可根据需要调整 */
 }
 
 
