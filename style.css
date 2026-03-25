@@ -50,10 +50,18 @@ header a {
 
 
 
+
+.about-section {
+    display: grid;
+    grid-template-columns: 200px 1fr; /* 左列固定200px，右列自适应 */
+    gap: 20px;
+}
+
 .about-photo {
-    width: 200px;        /* 图片宽度，可根据需要调整 */
-    height: auto;
-    float: left;         /* 图片浮动到左边 */
-    margin: 0 20px 20px 0; /* 右边和下边留空，文字不会贴过来 */
-    border-radius: 50%;  /* 圆形头像，可选 */
+    width: 100%;
+    border-radius: 50%;
+}
+
+.about-text {
+    /* 默认在右边列 */
 }
