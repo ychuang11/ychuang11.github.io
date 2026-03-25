@@ -3,8 +3,8 @@ body {
     background-color: white;
     color: #333;
     font-size: 20px; /* 文字大小，可根据需要调整 */
-    padding-left: 10px;   /* 左边空 20px */
-    padding-right: 10px;
+    padding-left: 0px;   /* 左边空 20px */
+    padding-right: 0px;
 }
 
 
@@ -16,7 +16,7 @@ header {
     color: #fff;                /* 文字颜色白色，保证可读性 */
     padding: 30px;             /* header 内边距 */
     text-align: center;          /* 文字居中 */
-    font-size: 20px; /* 文字大小，可根据需要调整 */
+    font-size: 30px; /* 文字大小，可根据需要调整 */
 }
 
 
@@ -45,7 +45,7 @@ body a {
 header a {
     color: white;
     text-decoration: none;
-    font-size: 20px;
+    font-size: 30px;
 }
 
 
