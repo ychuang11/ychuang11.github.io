@@ -51,17 +51,8 @@ header a {
 
 
 
-.about-section {
-    display: grid;
-    grid-template-columns: 200px 1fr; /* 左列固定200px，右列自适应 */
-    gap: 20px;
-}
-
 .about-photo {
     width: 100%;
     border-radius: 50%;
 }
 
-.about-text {
-    /* 默认在右边列 */
-}
