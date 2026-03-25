@@ -2,6 +2,7 @@ body {
     font-family: Arial, sans-serif;
     background-color: #f4f4f9;
     color: #333;
+    font-size: 15px; /* 文字大小，可根据需要调整 */
 }
 
 
@@ -10,9 +11,9 @@ header {
     background-size: cover;     /* 图片铺满整个 header */
     background-position: center; /* 图片居中显示 */
     color: #fff;                /* 文字颜色白色，保证可读性 */
-    padding: 100px;             /* header 内边距 */
+    padding: 30px;             /* header 内边距 */
     text-align: center;          /* 文字居中 */
-    font-size: 36px; /* 文字大小，可根据需要调整 */
+    font-size: 30px; /* 文字大小，可根据需要调整 */
 }
 
 
