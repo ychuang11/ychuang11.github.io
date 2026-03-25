@@ -2,7 +2,7 @@ body {
     font-family: Arial, sans-serif;
     background-color: #f4f4f9;
     color: #333;
-    font-size: 20px; /* 文字大小，可根据需要调整 */
+    font-size: 50px; /* 文字大小，可根据需要调整 */
 }
 
 
@@ -14,7 +14,7 @@ header {
     color: #fff;                /* 文字颜色白色，保证可读性 */
     padding: 30px;             /* header 内边距 */
     text-align: center;          /* 文字居中 */
-    font-size: 30px; /* 文字大小，可根据需要调整 */
+    font-size: 20px; /* 文字大小，可根据需要调整 */
 }
 
 
