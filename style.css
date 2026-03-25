@@ -2,9 +2,9 @@ body {
     font-family: Arial, sans-serif;
     background-color: white;
     color: #333;
-    font-size: 20px; /* 文字大小，可根据需要调整 */
-    padding-left: 0px;   /* 左边空 20px */
-    padding-right: 0px;
+    font-size: 30px; /* 文字大小，可根据需要调整 */
+    padding-left: 10px;   /* 左边空 20px */
+    padding-right: 10px;
 }
 
 
