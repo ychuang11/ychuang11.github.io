@@ -6,9 +6,19 @@ header {
     padding: 50px;             /* header 内边距 */
     text-align: center;          /* 文字居中 */
     font-size: 20px; /* 文字大小，可根据需要调整 */
+    position: relative;  
 }
 
-
+.image-credit {
+    position: absolute;
+    bottom: 10px; /* 距离底部20px */
+    right: 10px;  /* 距离右侧20px */
+    font-size: 12px; /* 字体大小 */
+    color: white;    /* 字体颜色 */
+    background-color: rgba(0, 0, 0, 0.5); /* 半透明背景，使文字更易读 */
+    padding: 5px;
+    border-radius: 5px; /* 圆角边框 */
+}
 
 
 body {
