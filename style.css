@@ -9,6 +9,7 @@ header {
     position: relative;  
 }
 
+
 .image-credit {
     position: absolute;
     bottom: 10px; /* 距离底部20px */
@@ -64,8 +65,8 @@ body a {
 
 header nav ul li a {
     display: inline-block;           /* 让 a 可以设置内边距 */
-    padding: 5px 10px 5px 10px;        /* 上下左右的空白，让像按钮 */
-    margin: 0px 5px;
+    padding: 5px 10px 5px 10px;        /* 上右下左的空白，让像按钮 */
+    margin: 5px 5px;
     color: white;                     /* 文字颜色 */
     background-color: rgba(255,255,255,0); /* 透明背景 */
     border: 1px solid white;          /* 白色边框 */
