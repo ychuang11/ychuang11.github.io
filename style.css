@@ -5,6 +5,7 @@ header {
     color: white;                /* 文字颜色白色，保证可读性 */
     padding: 50px;             /* header 内边距 */
     text-align: center;          /* 文字居中 */
+    font-family: Arial, Helvetica, sans-serif;
     font-size: 20px; /* 文字大小，可根据需要调整 */
     position: relative;  
 }
@@ -14,6 +15,7 @@ header {
     position: absolute;
     bottom: 10px; /* 距离底部20px */
     right: 10px;  /* 距离右侧20px */
+    font-family: "Times New Roman", "DFKai-SB", serif;
     font-size: 12px; /* 字体大小 */
     color: white;    /* 字体颜色 */
     background-color: rgba(0, 0, 0, 0.5); /* 半透明背景，使文字更易读 */
@@ -24,8 +26,9 @@ header {
 
 body {
     font-family: "Times New Roman";
-    background-color: rgb(247, 245, 206);
+    background-color: whitesmoke;
     color: black;
+    font-family: 'Times New Roman', Times, serif;
     font-size: 25px; 
     line-height: 1.5;
     margin: 0;
@@ -64,16 +67,19 @@ body a {
 
 
 header nav ul li a {
+
     display: inline-block;           /* 让 a 可以设置内边距 */
-    padding: 5px 10px 5px 10px;        /* 上右下左的空白，让像按钮 */
+    padding: 5px 10px 5px 10px;        /* 边框和字体之间空白，上右下左*/
     margin: 5px 5px;
     color: white;                     /* 文字颜色 */
-    background-color: rgba(255,255,255,0); /* 透明背景 */
-    border: 1px solid white;          /* 白色边框 */
+    background-color: rgba(255,255,255,0); /* 背景颜色 */
+    border: 1px solid white;          /* 白色边框粗细 */
     border-radius: 10px;               /* 圆角按钮 */
     text-decoration: none;            /* 去掉原下划线 */
-    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;                 /* 文字大小 */
     transition: all 0.3s ease;        /* 鼠标悬停动画 */
+
 }
 
 /* 悬停效果 */
@@ -89,6 +95,6 @@ header nav ul li a:hover {
     width: 200px; /* 图片宽度，可根据需要调整 */ 
     height: auto; 
     float: left; /* 图片浮动到左边 */ 
-    margin: 10px 100px 10px 30px; /* 上右下左 */ 
+    margin: 10px 70px 10px 40px; /* 上右下左 */ 
     border-radius: 20%; /* 圆形头像，可选 */ 
 }
