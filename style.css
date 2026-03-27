@@ -50,6 +50,7 @@ header nav ul li a:hover {
 }
 
 
+
 body {
     font-family: "Times New Roman";
     background-color: whitesmoke;
@@ -61,6 +62,19 @@ body {
 }
 
 
+
+.about-photo { 
+    width: 170px; /* 图片宽度，可根据需要调整 */ 
+    height: auto; 
+    float: left; /* 图片浮动到左边 */ 
+    margin: 10px 50px 10px 40px; /* 上右下左 */ 
+    border-radius: 10%; /* 圆形头像，可选 */ 
+}
+
+
+#education .year {
+    color: rgb(119, 119, 119);
+}
 
 
 
@@ -105,13 +119,6 @@ body a {
 
 
 
-.about-photo { 
-    width: 170px; /* 图片宽度，可根据需要调整 */ 
-    height: auto; 
-    float: left; /* 图片浮动到左边 */ 
-    margin: 10px 50px 10px 40px; /* 上右下左 */ 
-    border-radius: 10%; /* 圆形头像，可选 */ 
-}
 
 
 
@@ -137,7 +144,7 @@ footer nav ul li a {
     color: white;                     /* 文字颜色 */
     background-color: rgba(255,255,255,0); /* 背景颜色 */
     border: 1px solid white;          /* 白色边框粗细 */
-    border-radius: 10px;               /* 圆角按钮 */
+    border-radius: 6px;               /* 圆角按钮 */
     text-decoration: none;            /* 去掉原下划线 */
     font-family: Arial, Helvetica, sans-serif;
     font-size: 15px;                 /* 文字大小 */
@@ -155,6 +162,3 @@ footer nav ul li a:hover {
 }
 
 
-#education .year {
-    color: rgb(119, 119, 119);
-}
