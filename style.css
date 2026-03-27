@@ -131,7 +131,7 @@ footer nav ul li a {
 
     display: inline-block;           /* 让 a 可以设置内边距 */
     padding: 15px 30px 15px 30px;        /* 边框和字体之间空白，上右下左*/
-    margin: 10px 10px 10px 10px;    
+    margin: 10px 5px 10px 5px;    
     color: white;                     /* 文字颜色 */
     background-color: rgba(255,255,255,0); /* 背景颜色 */
     border: 1px solid white;          /* 白色边框粗细 */
