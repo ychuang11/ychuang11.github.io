@@ -83,14 +83,14 @@ body {
 
 .bodytext {
     text-align: left;
-    padding: 0px 70px 0px 30px;
+    margin: 0px 30px 0px 30px;
 }
 
 
 
 .profiletext {
     text-align: justify;
-    padding: 0px 100px; /* 调整profile文字 */
+    margin: 0px 200px 0px 30px;
 }
 
 
