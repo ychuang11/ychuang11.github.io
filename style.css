@@ -68,13 +68,15 @@ body {
 
 
 .bodytext {
-    padding: 0px 30px 0px 30px;
+    text-align: left;
+    padding: 0px 70px 0px 30px;
 }
 
 
 
 .profiletext {
-    padding: 20px 100px; /* 调整profile文字 */
+    text-align: justify;
+    padding: 0px 100px; /* 调整profile文字 */
 }
 
 
@@ -131,7 +133,7 @@ footer nav ul li a {
 
     display: inline-block;           /* 让 a 可以设置内边距 */
     padding: 15px 30px 15px 30px;        /* 边框和字体之间空白，上右下左*/
-    margin: 10px 5px 10px 5px;    
+    margin: 10px 10px 10px 0px;    
     color: white;                     /* 文字颜色 */
     background-color: rgba(255,255,255,0); /* 背景颜色 */
     border: 1px solid white;          /* 白色边框粗细 */
@@ -142,6 +144,7 @@ footer nav ul li a {
     transition: all 0.3s ease;        /* 鼠标悬停动画 */
 
 }
+
 
 /* 悬停效果 */
 footer nav ul li a:hover {
