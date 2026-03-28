@@ -62,7 +62,7 @@ body {
 
     display: flex;
     flex-direction: column;
-    min-height: 160vh;
+    min-height: 150vh;
 }
 
 
@@ -82,8 +82,14 @@ main {
 
 
 #education .year {
-    color: rgb(119, 119, 119);
+    color: gray;
 }
+
+#education .degree {
+    color: gray;
+}
+
+
 
 
 
