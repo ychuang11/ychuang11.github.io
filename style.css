@@ -1,75 +1,39 @@
-header {
+header{
     background-image: url('starrysky.png'); /* 图片路径，可以是本地或网络链接 */
     background-size: cover;     /* 图片铺满整个 header */
     background-position: center; /* 图片居中显示 */
     color: white;                /* 文字颜色白色，保证可读性 */
-    padding: 70px;             /* header 内边距 */
+    margin: 0vw;
+    padding: 5vw 20vw 5vw 20vw;             /* header 内边距 */
     text-align: center;          /* 文字居中 */
     font-family: Arial, Helvetica, sans-serif;
     font-size: 20px; /* 文字大小，可根据需要调整 */
-    position: relative;  
-}
-
-
-
-header nav ul li a {
-
-    display: inline-block;           /* 让 a 可以设置内边距 */
-    padding: 5px 10px 5px 10px;        /* 边框和字体之间空白，上右下左*/
-    margin: 5px 5px;
-    color: white;                     /* 文字颜色 */
-    background-color: rgba(255,255,255,0); /* 背景颜色 */
-    border: 1px solid white;          /* 白色边框粗细 */
-    border-radius: 10px;               /* 圆角按钮 */
-    text-decoration: none;            /* 去掉原下划线 */
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 30px;                 /* 文字大小 */
-    transition: all 0.3s ease;        /* 鼠标悬停动画 */
-
-}
-
-
-
-/* 悬停效果 */
-header nav ul li a:hover {
-    background-color: rgba(255,255,255,0.2); /* 半透明背景 */
-    border-color: white;                    /* 可以换成金色边框，呼应银河 */
-    cursor: pointer;
+    position: relative; 
 }
 
 
 
 .image-credit {
     position: absolute;
-    bottom: 10px; /* 距离底部20px */
-    right: 10px;  /* 距离右侧20px */
+    bottom: 0.5vw; 
+    right: 1vw;  
     font-family: "Times New Roman", "DFKai-SB", serif;
-    font-size: 12px; /* 字体大小 */
-    color: white;    /* 字体颜色 */
-    background-color: rgba(0, 0, 0, 0.5); /* 半透明背景，使文字更易读 */
-    padding: 5px;
-    border-radius: 5px; /* 圆角边框 */
+    font-size: 12px; 
+    color: white;   
 }
 
 
 
-body {
+body{
     font-family: "Times New Roman";
     background-color: whitesmoke;
     color: black;
     font-family: 'Times New Roman', Times, serif;
     font-size: 25px; 
     line-height: 1.5;
-    margin: 0;
-
+    margin: 0vw;
     display: flex;
     flex-direction: column;
-    min-height: 150vh;
-}
-
-
-main {
-    flex: 1;
 }
 
 
@@ -78,49 +42,15 @@ main {
     width: 170px; /* 图片宽度，可根据需要调整 */ 
     height: auto; 
     float: left; /* 图片浮动到左边 */ 
-    margin: 10px 50px 10px 40px; /* 上右下左 */ 
+    margin: 0vw 3vw 0vw 1.5vw; /* 上右下左 */ 
     border-radius: 10%; /* 圆形头像，可选 */ 
 }
 
 
-#education .year {
-    color: gray;
-}
-
-#education .degree {
-    color: gray;
-}
-
-
-
-
-.publicationstext {
+.bodytext{
     text-align: left;
-    margin: 0px 30px 0px 30px;
+    margin: 0vw 3vw 10vw 3vw;
 }
-
-
-
-.mainpagetext {
-    text-align: left;
-    margin: 0px 30px 0px 30px;
-}
-
-
-
-
-nav ul {
-    list-style: none;
-    padding: 0;
-}
-
-
-
-nav ul li {
-    display: inline;
-    margin-right: 0px;
-}
-
 
 
 body a {
@@ -129,10 +59,9 @@ body a {
 }
 
 
-
-
-
-
+.educationdetail{
+    color: gray;
+}
 
 
 
@@ -141,12 +70,26 @@ footer {
     background-size: cover;
     background-position: center;
     color: white;
-    padding: 10px 0px 10px 30px; /* 字体和边界之间的空白，上右下左*/
+    padding: 0vw 0vw 0vw 3vw; /* 字体和边界之间的空白，上右下左*/
     text-align: left;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 15px; /* 文字大小，可根据需要调整 */
     position: relative;
 }
+
+
+
+footer nav ul {
+    list-style: none;
+    padding: 0vw;
+}
+
+
+
+footer nav ul li {
+    display: inline;
+}
+
 
 
 footer nav ul li a {
@@ -157,12 +100,10 @@ footer nav ul li a {
     color: white;                     /* 文字颜色 */
     background-color: rgba(255,255,255,0); /* 背景颜色 */
     border: 1px solid white;          /* 白色边框粗细 */
-    border-radius: 6px;               /* 圆角按钮 */
-    text-decoration: none;            /* 去掉原下划线 */
+    border-radius: 7px;               /* 圆角按钮 */
     font-family: Arial, Helvetica, sans-serif;
     font-size: 15px;                 /* 文字大小 */
     transition: all 0.3s ease;        /* 鼠标悬停动画 */
-
 }
 
 
