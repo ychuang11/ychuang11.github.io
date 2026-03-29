@@ -28,6 +28,8 @@ header nav ul li a {
 
 }
 
+
+
 /* 悬停效果 */
 header nav ul li a:hover {
     background-color: rgba(255,255,255,0.2); /* 半透明背景 */
@@ -92,8 +94,6 @@ main {
 
 
 
-
-
 .publicationstext {
     text-align: left;
     margin: 0px 30px 0px 30px;
@@ -103,7 +103,7 @@ main {
 
 .mainpagetext {
     text-align: justify;
-    margin: 0px 200px 0px 30px;
+    margin: 0px 30px 0px 30px;
 }
 
 
