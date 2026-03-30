@@ -4,7 +4,7 @@ header{
     background-position: center; /* 图片居中显示 */
     color: white;                /* 文字颜色白色，保证可读性 */
     margin: 0vw;
-    padding: 5vw 20vw 5vw 20vw;             /* header 内边距 */
+    padding: 5% 10% 5% 10%;
     text-align: center;          /* 文字居中 */
     font-family: Arial, Helvetica, sans-serif;
     font-size: 20px; /* 文字大小，可根据需要调整 */
@@ -15,8 +15,8 @@ header{
 
 .image-credit {
     position: absolute;
-    bottom: 0.5vw; 
-    right: 1vw;  
+    bottom: 3%; 
+    right: 1%;  
     font-family: "Times New Roman", "DFKai-SB", serif;
     font-size: 12px; 
     color: white;   
@@ -30,26 +30,26 @@ body{
     font-family: 'Times New Roman', Times, serif;
     font-size: 25px; 
     line-height: 1.5;
-    margin: 0vw;
+    margin: 0;
     display: flex;
     flex-direction: column;
-    min-height: 100vw;
+    min-height: 100%;
 }
 
 
 
 .about-photo { 
-    width: 170px; /* 图片宽度，可根据需要调整 */ 
+    width: 15%; /* 图片宽度，可根据需要调整 */ 
     height: auto; 
     float: left; /* 图片浮动到左边 */ 
-    margin: 0vw 3vw 0vw 1.5vw; /* 上右下左 */ 
+    margin: 0% 5% 0% 2%; /* 上右下左 */ 
     border-radius: 10%; /* 圆形头像，可选 */ 
 }
 
 
 .bodytext{
     text-align: left;
-    margin: 0vw 3vw 10vw 3vw;
+    margin: 0% 3% 10% 3%;
     flex: 1;
 }
 
@@ -70,7 +70,7 @@ footer {
     background-size: cover;
     background-position: center;
     color: white;
-    padding: 0vw 0vw 0vw 3vw; /* 字体和边界之间的空白，上右下左*/
+    padding: 0% 0% 0% 3%; /* 字体和边界之间的空白，上右下左*/
     text-align: left;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 15px; /* 文字大小，可根据需要调整 */
