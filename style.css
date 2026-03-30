@@ -37,7 +37,6 @@ body{
 }
 
 
-
 .about-photo { 
     width: 150px; /* 图片宽度，可根据需要调整 */ 
     height: auto; 
@@ -45,6 +44,7 @@ body{
     margin: 0% 4% 0% 2%; /* 上右下左 */ 
     border-radius: 10%; /* 圆形头像，可选 */ 
 }
+
 
 
 .bodytext{
