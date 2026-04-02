@@ -42,7 +42,7 @@ body{
     width: 150px; /* 图片宽度，可根据需要调整 */ 
     height: auto; 
     float: left; /* 图片浮动到左边 */ 
-    margin: 0% 4% 0% 2%; /* 上右下左 */ 
+    margin: 0% 4% 2% 2%; /* 上右下左 */ 
     border-radius: 10%; /* 圆形头像，可选 */ 
 }
 
