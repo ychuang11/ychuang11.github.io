@@ -1,10 +1,10 @@
 header{
-    background-image: url('yuchenhuang.png'); /* 图片路径，可以是本地或网络链接 */
+    /* background-image: url('yuchenhuang.png'); /* 图片路径，可以是本地或网络链接 */
     background-size: cover;     /* 图片铺满整个 header */
     background-position: center; /* 图片居中显示 */
-    color: white;                /* 文字颜色白色，保证可读性 */
+    background-color: rgb(175, 174, 191);                /* 文字颜色白色，保证可读性 */
     margin: 0vw;
-    padding: 10% 10% 10% 10%;
+    padding: 10% 10% 1% 10%;
     text-align: center;          /* 文字居中 */
     font-family: Palatino;
     font-size: 20px; /* 文字大小，可根据需要调整 */
@@ -12,16 +12,6 @@ header{
 }
 
 
-
-.image-credit{
-    position: absolute;
-    bottom: 0.5%; 
-    left: 40%;
-    right: 40%;  
-    font-family: "Times New Roman";
-    font-size: 12px; 
-    color: white;   
-}
 
 
 
