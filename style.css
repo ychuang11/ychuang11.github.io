@@ -40,7 +40,7 @@ body{
 
 
 .about-photo { 
-    width: 150px; /* 图片宽度，可根据需要调整 */ 
+    width: 200px; /* 图片宽度，可根据需要调整 */ 
     height: auto; 
     float: left; /* 图片浮动到左边 */ 
     margin: 0% 4% 1% 2%; /* 上右下左 */ 
