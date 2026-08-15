@@ -1,14 +1,9 @@
 header{
-    /* background-image: url('yuchenhuang.png'); /* 图片路径，可以是本地或网络链接 */
-    background-size: cover;     /* 图片铺满整个 header */
-    background-position: center; /* 图片居中显示 */
-    background-color: rgb(175, 174, 191);                /* 文字颜色白色，保证可读性 */
-    margin: 0vw;
-    padding: 10% 10% 1% 10%;
-    text-align: center;          /* 文字居中 */
-    font-family: Palatino;
-    font-size: 20px; /* 文字大小，可根据需要调整 */
-    position: relative; 
+    background-size: cover;     
+    background-position: center; 
+    background-color: rgb(175, 174, 191);               
+    margin: 0%;
+    padding: 10% 0% 10% 0%;
 }
 
 
@@ -19,7 +14,7 @@ body{
     background-color: whitesmoke;
     color: black;
     font-family: Palatino, Georgia, "Times New Roman";
-    font-size: 25px; 
+    font-size: 1.8rem; 
     line-height: 1.5;
     margin: 0;
     display: flex;
@@ -29,12 +24,13 @@ body{
 }
 
 
+
 .about-photo { 
-    width: 200px; /* 图片宽度，可根据需要调整 */ 
+    width: 220px; 
     height: auto; 
-    float: left; /* 图片浮动到左边 */ 
-    margin: 0% 4% 1% 2%; /* 上右下左 */ 
-    border-radius: 10%; /* 圆形头像，可选 */ 
+    float: left; 
+    margin: 0% 5% 2% 2%; 
+    border-radius: 10%; 
 }
 
 
@@ -46,10 +42,16 @@ body{
 }
 
 
+
 body a {
     color: blue;
     text-decoration: none;
 }
+
+.paper-link {
+    text-decoration: underline;
+}
+
 
 
 .educationdetail{
@@ -57,15 +59,16 @@ body a {
 }
 
 
+
 footer {
     background-color: gray;
     background-size: cover;
     background-position: center;
     color: white;
-    padding: 0% 0% 0% 3%; /* 字体和边界之间的空白，上右下左*/
+    padding: 0% 0% 0% 3%; 
     text-align: left;
     font-family: Arial;
-    font-size: 15px; /* 文字大小，可根据需要调整 */
+    font-size: 15px; 
 }
 
 
@@ -96,6 +99,8 @@ footer nav ul li a {
     font-size: 15px;                 /* 文字大小 */
     transition: all 0.3s ease;        /* 鼠标悬停动画 */
 }
+
+
 
 
 /* 悬停效果 */
